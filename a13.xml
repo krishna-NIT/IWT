@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+	<CD>
+        <ID>1</ID>
+		<USER>Sudeep Joshi</USER>
+		<COUNTRY>Chattisgard</COUNTRY>
+	</CD>
+	<CD>
+        <ID>2</ID>
+		<USER>Shivam Malpani</USER>
+		<COUNTRY>Gujrat</COUNTRY>
+	</CD>
+	<CD>
+        <ID>3</ID>
+		<USER>Hardik Pandey</USER>
+		<COUNTRY>Chattisgard</COUNTRY>
+	</CD>
+	<CD>
+        <ID>4</ID>
+		<USER>Vedant Shinde</USER>
+		<COUNTRY>Gujrat</COUNTRY>
+	</CD>
+	<CD>
+        <ID>5</ID>
+		<USER>Siddhart Gatkal</USER>
+		<COUNTRY>Maharashtra</COUNTRY>
+	</CD>
+	<CD>
+        <ID>6</ID>
+		<USER>Shilpa Kulkarni</USER>
+		<COUNTRY>Gujrat</COUNTRY>
+	</CD>
+	<CD>
+        <ID>7</ID>
+		<USER>Shree</USER>
+		<COUNTRY>Gujrat</COUNTRY>
+	</CD>
+	<CD>
+        <ID>8</ID>
+		<USER>Datta Tekade</USER>
+		<COUNTRY>Gujrat</COUNTRY>
+	</CD>
+	<CD>
+        <ID>9</ID>
+		<USER>Hruhikesh wadegaokar</USER>
+		<COUNTRY>Maharashtra</COUNTRY>
+	</CD>
+	<CD>
+        <ID>10</ID>
+		<USER>Stephens smith</USER>
+		<COUNTRY>Chattisgard</COUNTRY>
+	</CD>
+</CATALOG>

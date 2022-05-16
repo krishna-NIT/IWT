@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="a16.css"?>
+
+<STUDENTDATA>
+    <STUDENT>
+        <NAME> Bhagwat Shrikrushna</NAME>
+        <COLLAGE>NITRR</COLLAGE>
+        <YEAR>2011</YEAR>
+        <ROLLNO>20118023</ROLLNO>
+        <BRANCH>IT</BRANCH>
+        <EMAIL>bhawgat.nitrr@gmail.com</EMAIL>
+    </STUDENT>
+
+    <STUDENT>
+        <NAME> Gajanan Krishna</NAME>
+        <COLLAGE>NITRR</COLLAGE>
+        <YEAR>2019</YEAR>
+        <ROLLNO>>20118023</ROLLNO>
+        <BRANCH>IT</BRANCH>
+        <EMAIL>bhawgat.nitrr@gmail.com</EMAIL>
+    </STUDENT>
+
+    <STUDENT>
+        <NAME> Shradha kappor</NAME>
+        <COLLAGE>NITRR</COLLAGE>
+        <YEAR>2021</YEAR>
+        <ROLLNO>>20118023</ROLLNO>
+        <BRANCH>IT</BRANCH>
+        <EMAIL>bhawgat.nitrr@gmail.com</EMAIL>
+    </STUDENT>
+
+    <STUDENT>
+        <NAME> Raj Shamini</NAME>
+        <COLLAGE>NITRR</COLLAGE>
+        <YEAR>2021</YEAR>
+        <ROLLNO>>20118023</ROLLNO>
+        <BRANCH>CSE</BRANCH>
+        <EMAIL>bhawgat.nitrr@gmail.com</EMAIL>
+    </STUDENT>
+
+    <STUDENT>
+        <NAME> ANIMESH SHARMA</NAME>
+        <COLLAGE>IITD</COLLAGE>
+        <YEAR>2018</YEAR>
+        <ROLLNO>10057</ROLLNO>
+        <BRANCH>IT</BRANCH>
+        <EMAIL>bhawgat.nitrr@gmail.com</EMAIL>
+    </STUDENT>
+
+
+</STUDENTDATA>

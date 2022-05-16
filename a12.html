@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWT 12 (Cookie setter) by 20118023</title>
+    <link rel="stylesheet" href="a5.css">
+</head>
+
+<body>
+
+    <div class="bluebtn">JS programm to set/remove/modify a cookie from frontend by 20118023</div>
+    <div class="xBody">
+    <div class="card">
+
+        <button class="bluebtn" onclick="auth()">set Auth cookie by 20118023</button>
+        <button class="bluebtn" onclick="authClear()">remove auth cookie by 20118023</button>
+        <button class="bluebtn" onclick="clearAll()">remove all cookies by 20118023</button>
+        <div class="container">
+            <input type="text" class="i1" placeholder="cookie">
+            <input type="text" class="i2" placeholder="value">
+            <input type="text" class="i3" placeholder="path">
+            <input type="text" class="i4" placeholder="life in days">
+        </div>
+        <button class="bluebtn" onclick="cookieSetter()">Set sample Cookie by 20118023</button>
+
+    </div>
+
+    <div class="card">
+        <div class="status card">auth status:  by 20118023</div>
+        Cookie: <div class="cookie">
+        </div>
+    </div>
+    </div>
+
+    <script>
+
+        var cookieSetter = function () {
+            var Name = document.querySelector('.i1').value;
+            var Value = document.querySelector('.i2').value;
+            var Path = document.querySelector('.i3').value;
+            var Days = parseInt(document.querySelector('.i4').value);
+            console.log('name ' + Name, 'value ' + Value, 'days ' + Days, 'path ' + Path);
+            setCookie(Name, Value, Days, Path);
+        }
+
+        var setCookie = (name, value, days, path) => {
+            var input1 = document.querySelector('.i1');
+            var input2 = document.querySelector('.i2');
+            var input3 = document.querySelector('.i1');
+            var input4 = document.querySelector('.i2');
+
+            let Name = name ? name : 'sample_cookie';
+            let Value = value ? value : 'sample_value';
+            let Days = days ? days : 3;
+            let Path = path ? path : '/';
+
+
+            let cookie = `${Name}=${encodeURIComponent(Value)}`;
+
+            // Add expiry date
+            if (days) {
+                const expiry = new Date();
+                expiry.setDate(expiry.getDate() + days);
+                cookie += `; expires=${expiry.toUTCString()}`;
+            }
+
+            // Add Path
+            if (path) cookie += `; path=${path}`;
+
+            // Set an HTTP cookie
+            document.cookie = cookie;
+            updateStatus()
+        };
+
+        var clearAll = function () {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                let c = cookies[i].trim().split('=');
+                let name = c[0];
+                let value = '';
+                setCookie(name, value, -1)
+            }
+            console.log(document.cookie)
+        }
+
+
+        var auth = function () {
+            let name = 'auth';
+            let value = `AuthValue${Math.random()}`;
+            setCookie(name, value, 3)
+            updateStatus()
+        }
+        function authClear() {
+            let name = 'auth';
+            let value = ``;
+            setCookie(name, value, -1)
+            updateStatus()
+        }
+
+        function check() {
+            var cookie = document.cookie;
+            if (cookie.includes("auth")) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        function updateStatus() {
+            if (check()) {
+                document.querySelector('div.status').innerHTML = "auth status: auth cookie found";
+            } else {
+                document.querySelector('div.status').innerHTML = "auth status: auth cookie not found";
+            }
+            displayCookie()
+        }
+
+        var displayCookie = function () {
+            var cookieDiv = document.querySelector('div.cookie');
+
+            let d = `${document.cookie}`.split('; ')
+            console.log(d)
+            let j = ''
+            for (let i = 0; i < d.length; i++) {
+                if (d[i] == '=') {
+                    j += `<div class="card">${d[i - 1]} : ${d[i + 1]}</div>`
+                } else {
+                    j += `<div class="card">${d[i]}</div>`
+                }
+            }
+            cookieDiv.innerHTML = j
+        }
+    </script>
+
+
+</body>
+
+</html>

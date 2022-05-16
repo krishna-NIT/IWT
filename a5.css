@@ -1,0 +1,89 @@
+form{
+    width: 50%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 3%;
+    position: absolute;
+    left: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+}
+
+/* Add padding to containers */
+.container {
+  padding: 2vw;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* Full-width input fields */
+input {
+  /* width:calc(100%-32px); */
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.bluebtn {
+  background-color: #2004aa;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.bluebtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.card{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 3vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3vw; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 40%;
+}
+
+.error{
+    color: red;
+    font-size: 0.8rem;
+}
+
+.xBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="a14.css"?>
+
+<BOOKDATA>
+
+    <BOOK>
+        <TITLE>UGEE NIT Raipur Edition</TITLE>
+        <AUTHOR> H.C. Verma</AUTHOR>
+        <EDITION>2022 4th edition</EDITION>
+        <PRICE>121/-</PRICE>
+    </BOOK>
+
+    <BOOK>
+        <TITLE>GEE NIT Raipur Edition</TITLE>
+        <AUTHOR> I.E. Irodove</AUTHOR>
+        <EDITION>2022 1st edition</EDITION>
+        <PRICE>121/-</PRICE>
+    </BOOK>
+
+    <BOOK>
+        <TITLE>GEE NIT Raipur Edition</TITLE>
+        <AUTHOR> YASHWANT RAJPUT</AUTHOR>
+        <EDITION>2022 edition</EDITION>
+        <PRICE>121/-</PRICE>
+    </BOOK>
+
+    <BOOK>
+        <TITLE>GEE NIT Raipur Edition</TITLE>
+        <AUTHOR> SHRADDHA PATEL</AUTHOR>
+        <EDITION>2022 4th edition</EDITION>
+        <PRICE>121/-</PRICE>
+    </BOOK>
+
+    <BOOK>
+        <TITLE>GEE NIT Raipur Edition</TITLE>
+        <AUTHOR> ANIMESH SHARMA</AUTHOR>
+        <EDITION>2022 edition</EDITION>
+        <PRICE>121/-</PRICE>
+    </BOOK>
+
+
+</BOOKDATA>
